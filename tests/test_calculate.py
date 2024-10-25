@@ -1,6 +1,6 @@
 import unittest
 
-from CI_CD_sample.calculate import sum_nums, multiple_nums, get_minimum
+from CI_CD_sample.calculate import sum_nums, get_minimum
 
 # from math_operations import sum, multiple
 
