@@ -19,10 +19,8 @@ jobs:
       - uses: astral-sh/ruff-action@v1
         with:
           version: 0.0.259
-          args: check --select B
+          args: check
           src: "./CI_CD_sample/"
-      - name: run ruff
-        run: ruff
       - name: import dependencies
         run: pip install -r requirements.txt
       - name: run type checker
