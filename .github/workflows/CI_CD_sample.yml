@@ -21,6 +21,8 @@ jobs:
           version: 0.0.259
           args: check --select B
           src: "./CI_CD_sample/"
+      - name: run ruff
+        run: ruff
       - name: import dependencies
         run: pip install -r requirements.txt
       - name: run type checker
