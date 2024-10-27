@@ -1,7 +1,5 @@
 import unittest
 
-import os
-
 from CI_CD_sample.calculate import sum_nums, get_minimum
 
 class Test_Calculate(unittest.TestCase):
