@@ -1,8 +1,8 @@
 import unittest
 
-from CI_CD_sample.calculate import sum_nums, get_minimum
+import os
 
-# from math_operations import sum, multiple
+from CI_CD_sample.calculate import sum_nums, get_minimum
 
 class Test_Calculate(unittest.TestCase):
 
