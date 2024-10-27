@@ -23,7 +23,6 @@ jobs:
           src: "./CI_CD_sample/"
       - name: import dependencies
         run: pip install -r requirements.txt
-      # we can use ruff with ruff-action without install ruff
       - name: run linter
         run: ruff check
       - name: run type checker
